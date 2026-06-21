@@ -1,0 +1,72 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Type checker / linter
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.~lock.*
+
+# Local test results
+test-results/
+coverage.xml
+junit.xml
+
+# Application-generated output
+outputs/
+exports/
